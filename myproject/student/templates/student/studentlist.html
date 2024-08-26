@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css"  href="/static/student/css/font.css">
+</head>
+<body>
+    
+    <ul>
+        {%for p in studentlist%}
+        <h1><li>{{p.id}}- {{p.last_name}}</li></h1>
+        {%endfor%}
+    </ul>
+</body>
+</html>
